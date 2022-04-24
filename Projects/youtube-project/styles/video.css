@@ -3,7 +3,7 @@
     width: 100%;
 }
 .thumbnail-row{
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     position: relative;
 }
 
@@ -11,23 +11,18 @@
     display: grid;
     grid-template-columns: 50px 1fr;
 }
-.channel-picture{
-    
-}
-.video-info{
-   
-}
+
 .profile-picture{
     width: 100%;
     border-radius: 100px;
-    width: 40px;
+    width: 36px;
 }
 .Title{
     margin-top: 0;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 .video-author,
 .video-stats{
@@ -43,9 +38,7 @@
     column-gap: 16px;
     row-gap: 40px;
 }
-.video-stats{
- 
-}
+
 .video-time{
     font-family: Roboto, Arial;
     font-size: 12px;
