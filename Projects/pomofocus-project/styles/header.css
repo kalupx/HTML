@@ -1,0 +1,61 @@
+/*general*/
+.header{
+    display: flex;
+    flex: 1;
+    color: white;
+    font-family: Arial;
+    height: 60px;
+    width: 645px;
+    position: fixed;
+    top: 0;
+    left: 360px;
+    right: 380px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(204, 71, 71);
+}
+/*left-section*/
+.icon-white{
+    width: 22px;
+    margin-right: 4px;
+}
+.left-section{
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    padding-right: 240px;
+}
+.title{
+    margin-bottom: 8px;
+    font-size: 19px;
+}
+
+/*right-section*/
+.right-section{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding-right: 0;
+}
+
+.right-section button{
+    width: 80px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    background-color: #E17773;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.report-button,
+.settings-button{
+    margin-right: 10px;
+}
+.login-button{
+    margin-right: 0px;
+}
+.icon-image{
+    padding-right: 3px;
+    width: 20px;
+}
