@@ -4,12 +4,11 @@
     flex: 1;
     color: white;
     font-family: Arial;
-    height: 60px;
+    height: 47px;
     width: 645px;
-    position: fixed;
-    top: 0;
-    left: 360px;
-    right: 380px;
+    position: static;
+    padding-top: 0;
+    margin-left: 350px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(204, 71, 71);

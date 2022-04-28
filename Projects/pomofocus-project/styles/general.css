@@ -1,6 +1,25 @@
 body{
     background-color: #d95550;
+    height: 3000px;
 }
 button:hover{
     cursor: pointer;
+}
+.current-task{
+    display: block;
+    position: static;
+    top: 420px;
+    left: 435px;
+    right: 453px;
+}
+.current-task p{
+    text-align: center;
+    line-height: 10px;
+}
+.number{
+    color: #EAA09D;
+}
+.task{
+    padding-left: 3px;
+    color: white;
 }
