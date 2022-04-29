@@ -2,6 +2,12 @@ body{
     background-color: #d95550;
     height: 3000px;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
 button:hover{
     cursor: pointer;
 }
