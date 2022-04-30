@@ -1,6 +1,7 @@
 body{
     background-color: #d95550;
     height: 3000px;
+    font-family: arial;
 }
 main{
     display: flex;
@@ -11,14 +12,14 @@ main{
 button:hover{
     cursor: pointer;
 }
-.current-task{
+.task-name{
     display: block;
     position: static;
     top: 420px;
     left: 435px;
     right: 453px;
 }
-.current-task p{
+.task-name p{
     text-align: center;
     line-height: 10px;
 }
