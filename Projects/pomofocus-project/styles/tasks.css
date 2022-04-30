@@ -30,6 +30,9 @@
     height: 32px;
     width: 32px;
 }
+.tasks-header:hover button{
+    opacity: 0.84;
+}
 .dots-image{
     height: 18px;
     width: 18px;
@@ -90,7 +93,8 @@
 }
 .dots-container{
     display: flex;
-    background-color: #E17773;
+    background-color: white;
+    border: 1px solid rgb(200, 200, 200);
     align-items: center;
     justify-content: space-around;
     box-sizing: border-box;
@@ -98,6 +102,9 @@
     border-radius: 5px;
     height: 32px;
     width: 32px;
+}
+.dots-container:hover{
+    opacity: 0.85;
 }
 .add-task{
     display: flex;
