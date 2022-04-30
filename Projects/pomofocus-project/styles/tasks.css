@@ -119,7 +119,20 @@
 /*footer
 -----------------------------------*/
 .tasks-footer{
-    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E17773;
     width: 100%;
-    height: 58px;
+    height: 68px;
+    color: white;
+    border-top: 1px solid white;
+    font-size: 22px;
+}
+.tasks p{
+    font-weight: 500;
+}
+.tasks-footer span{
+    color: rgb(200, 200, 200);
+    font-size: 15px;
 }
