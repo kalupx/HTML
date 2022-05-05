@@ -26,7 +26,8 @@ body{
     background-color: white;
     text-align: end;
     box-sizing: border-box;
-    padding-top: 18px;
+    padding-top: 3px;
+    border: none;
 }
 /*teclado
 ***************************************/

@@ -12,38 +12,38 @@
     <body>
         <div class="calculator-container">
             <div class="display">
-                <div class="display-number">numero</div>
+                <input type="text" class="display-number" id="numero" placeholder="0" disabled>
             </div>
             <div class="numbers">
                 <div class="button-row">
-                    <button>clear</button>
+                    <button onclick="Sum('cls')">clear</button>
                     <button>()</button>
-                    <button>%</button>
-                    <button>/</button>
+                    <button onclick="Sum('%')">%</button>
+                    <button onclick="Sum('/')">/</button>
                 </div>
                 <div class="button-row">
-                    <button>7</button>
-                    <button>8</button>
-                    <button>9</button>
-                    <button>x</button>
+                    <button onclick="Sum(7)">7</button>
+                    <button onclick="Sum(8)">8</button>
+                    <button onclick="Sum(9)">9</button>
+                    <button onclick="Sum('*')">x</button>
                 </div>
                 <div class="button-row">
-                    <button>4</button>
-                    <button>5</button>
-                    <button>6</button>
-                    <button>-</button>
+                    <button onclick="Sum(4)">4</button>
+                    <button onclick="Sum(5)">5</button>
+                    <button onclick="Sum(6)">6</button>
+                    <button onclick="Sum('-')">-</button>
                 </div>
                 <div class="button-row">
-                    <button>1</button>
-                    <button>2</button>
-                    <button>3</button>
-                    <button>+</button>
+                    <button onclick="Sum(1)">1</button>
+                    <button onclick="Sum(2)">2</button>
+                    <button onclick="Sum(3)">3</button>
+                    <button onclick="Sum('+')">+</button>
                 </div>
                 <div class="button-row">
-                    <button>0</button>
-                    <button>,</button>
-                    <button>del</button>
-                    <button>=</button>
+                    <button onclick="Sum(0)">0</button>
+                    <button onclick="Sum(',')">,</button>
+                    <button onclick="Sum('del')">del</button>
+                    <button onclick="Sum('=')">=</button>
                 </div>
             </div>
         </div>
