@@ -64,10 +64,24 @@ function cadastrarDespesa(){
     
 
     if(despesa.validarDados()){
-        //bd.gravar(despesa);
-        console.log('dados validos')
+        bd.gravar(despesa);
+    
+        $('#modalRegistraDespesa').modal('show');
+        
+        document.getElementById('Modal_titulo').innerHTML = 'Registro feito com sucesso';
+        document.getElementById('modal_titulo_div').className = 'modal-header text-success';
+        document.getElementById('modal-conteudo').innerHTML = 'Despesa foi cadastrada com sucesso';
+        document.getElementById('modal-btn').innerHTML = 'voltar';
+        document.getElementById('modal-btn').className = 'btn btn-success'
     }else{
-        console.log('dados invalidos')
+        $('#modalRegistraDespesa').modal('show');
+
+        document.getElementById('Modal_titulo').innerHTML = 'Há campos que nao foram preenchidos';
+        document.getElementById('modal_titulo_div').className = 'modal-header text-danger';
+        document.getElementById('modal-conteudo').innerHTML = 'Há campos que não foram preenchidos';
+        document.getElementById('modal-btn').innerHTML = 'voltar e corrigir';
+        document.getElementById('modal-btn').className = 'btn btn-danger';
     }
+    
 }
 
